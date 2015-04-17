@@ -1,8 +1,8 @@
 -- Generates synthetic clustered datasets
 module SyntheticData
   (booleanClusteredDataSet,
-   booleanClusterCenters,
-   chunksOf) where
+   booleanClusterCenters)
+  where
 
 import System.Random
 import Data.Matrix
