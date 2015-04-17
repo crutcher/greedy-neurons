@@ -3,9 +3,9 @@ module Main(main) where
 
 import Util
 
-import Test.QuickCheck.Modifiers (Positive, getPositive, NonEmptyList, getNonEmpty)
+import Test.QuickCheck.Modifiers
+  (Positive, getPositive, NonEmptyList, getNonEmpty)
 import Test.QuickCheck.Property (Testable)
-import Test.QuickCheck.Test (quickCheck)
 import Test.QuickCheck.All (quickCheckAll)
 
 prop_chunksOf_Flatten :: Positive Int -> [Char] -> Bool
